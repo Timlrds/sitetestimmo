@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImmoWeb - Annonces Immobilières</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <svg class="logo-svg" viewBox="0 0 200 200" width="50" height="50">
+                    <defs>
+                        <linearGradient id="logo-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#3498db" />
+                            <stop offset="100%" style="stop-color:#e74c3c" />
+                        </linearGradient>
+                    </defs>
+                    <path class="logo-path" d="M100 20
+                        C 60 20, 20 60, 20 100
+                        C 20 140, 60 180, 100 180
+                        C 140 180, 180 140, 180 100
+                        C 180 60, 140 20, 100 20
+                        M 100 40
+                        L 160 100
+                        L 100 160
+                        L 40 100
+                        L 100 40
+                        M 85 90
+                        h 30
+                        v 30
+                        h -30
+                        v -30" />
+                </svg>
+                <span class="logo-text">Habigo</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#annonces">Annonces</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Trouvez votre bien immobilier idéal</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="Ville ou code postal">
+                <select>
+                    <option value="">Type de bien</option>
+                    <option value="maison">Maison</option>
+                    <option value="appartement">Appartement</option>
+                    <option value="terrain">Terrain</option>
+                </select>
+                <button>Rechercher</button>
+            </div>
+        </section>
+
+        <section class="featured-listings">
+            <h2>Annonces en vedette</h2>
+            <div class="listings-grid">
+                <div class="property-card">
+                    <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800" alt="Belle Maison Moderne">
+                    <div class="property-info">
+                        <h3>Belle Maison Moderne</h3>
+                        <p class="price">350 000 €</p>
+                        <p class="location">Paris, 75008</p>
+                        <p class="details">4 chambres • 150m² • Jardin</p>
+                    </div>
+                </div>
+
+                <div class="property-card">
+                    <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800" alt="Appartement Lumineux">
+                    <div class="property-info">
+                        <h3>Appartement Lumineux</h3>
+                        <p class="price">280 000 €</p>
+                        <p class="location">Lyon, 69002</p>
+                        <p class="details">2 chambres • 65m² • Balcon</p>
+                    </div>
+                </div>
+
+                <div class="property-card">
+                    <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800" alt="Villa avec Piscine">
+                    <div class="property-info">
+                        <h3>Villa avec Piscine</h3>
+                        <p class="price">520 000 €</p>
+                        <p class="location">Nice, 06000</p>
+                        <p class="details">5 chambres • 200m² • Piscine</p>
+                    </div>
+                </div>
+
+                <div class="property-card">
+                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800" alt="Loft Industriel">
+                    <div class="property-info">
+                        <h3>Loft Industriel</h3>
+                        <p class="price">420 000 €</p>
+                        <p class="location">Bordeaux, 33000</p>
+                        <p class="details">3 chambres • 120m² • Terrasse</p>
+                        <a href="#" class="view-button">Voir l'annonce</a>
+                    </div>
+                </div>
+
+                <div class="property-card">
+                    <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800" alt="Maison de Campagne">
+                    <div class="property-info">
+                        <h3>Maison de Campagne</h3>
+                        <p class="price">295 000 €</p>
+                        <p class="location">Toulouse, 31000</p>
+                        <p class="details">4 chambres • 180m² • Grand terrain</p>
+                        <a href="#" class="view-button">Voir l'annonce</a>
+                    </div>
+                </div>
+
+                <div class="property-card">
+                    <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800" alt="Studio Centre-Ville">
+                    <div class="property-info">
+                        <h3>Studio Centre-Ville</h3>
+                        <p class="price">175 000 €</p>
+                        <p class="location">Marseille, 13001</p>
+                        <p class="details">Studio • 35m² • Vue mer</p>
+                        <a href="#" class="view-button">Voir l'annonce</a>
+                    </div>
+                </div>
+
+                <div class="property-card">
+                    <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800" alt="Villa Contemporaine">
+                    <div class="property-info">
+                        <h3>Villa Contemporaine</h3>
+                        <p class="price">780 000 €</p>
+                        <p class="location">Cannes, 06400</p>
+                        <p class="details">6 chambres • 280m² • Vue mer</p>
+                        <a href="#" class="view-button">Voir l'annonce</a>
+                    </div>
+                </div>
+
+                <div class="property-card">
+                    <img src="https://images.unsplash.com/photo-1574362848149-11496d93a7c7?w=800" alt="Penthouse de Luxe">
+                    <div class="property-info">
+                        <h3>Penthouse de Luxe</h3>
+                        <p class="price">920 000 €</p>
+                        <p class="location">Paris, 75016</p>
+                        <p class="details">4 chambres • 200m² • Terrasse panoramique</p>
+                        <a href="#" class="view-button">Voir l'annonce</a>
+                    </div>
+                </div>
+
+                <div class="property-card">
+                    <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800" alt="Maison de Ville">
+                    <div class="property-info">
+                        <h3>Maison de Ville</h3>
+                        <p class="price">445 000 €</p>
+                        <p class="location">Nantes, 44000</p>
+                        <p class="details">3 chambres • 140m² • Jardin privatif</p>
+                        <a href="#" class="view-button">Voir l'annonce</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>À propos</h4>
+                <p>ImmoWeb est votre partenaire de confiance pour trouver votre prochain bien immobilier.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: contact@immoweb.fr</p>
+                <p>Tél: 01 23 45 67 89</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ImmoWeb - Tous droits réservés</p>
+        </div>
+    </footer>
+</body>
+</html> 
